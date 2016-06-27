@@ -1,7 +1,10 @@
 class Integer
 
   def fizzbuzz
-    'fizz'
+    str = ''
+    str << 'fizz' if self % 3 == 0
+    str << 'buzz' if self % 5 == 0
+    str
   end
 
 end
